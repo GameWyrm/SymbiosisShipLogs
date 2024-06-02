@@ -1,0 +1,101 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/dev/NewHorizons/Schemas/body_schema.json",
+    "name": "ALT TH",
+    "starSystem": "Jam3",
+    "ShipLog": {
+        "xmlFile": "../GameWyrm.SymbiosisShipLogs/shiplogs/Symbiosis.xml",
+        "mapMode": {
+            "revealedSprite": "../GameWyrm.SymbiosisShipLogs/planets/Symbiosis.png",
+            "invisibleWhenHidden": true
+        },
+        "spriteFolder": "../GameWyrm.SymbiosisShipLogs/shiplogs"
+    },
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "radius": 400,
+                "revealOn": "enter",
+                "reveals": [
+                    "SYM_MAIN_IDENTIFY"
+                ]
+            },
+            {
+                "position": {
+                    "x": -16.68389,
+                    "y": 0.3301252,
+                    "z": 190.6498
+                },
+                "radius": 150,
+                "revealOn": "enter",
+                "reveals": [
+                    "SYM_VILLAGE_IDENTIFY"
+                ]
+            },
+            {
+                "position": {
+                    "x": -30.78711,
+                    "y": -200.5786,
+                    "z": -2.059937
+                },
+                "radius": 70,
+                "revealOn": "enter",
+                "reveals": [
+                    "SYM_GROVE_IDENTIFY"
+                ]
+            },
+            {
+                "position": {
+                    "x": -121.6125,
+                    "y": -19.79152,
+                    "z": -186.9704
+                },
+                "radius": 120,
+                "revealOn": "enter",
+                "reveals": [
+                    "SYM_MINE_IDENTIFY"
+                ]
+            },
+            {
+                "position": {
+                    "x": -81.08821,
+                    "y": 60.7887,
+                    "z": -180.7262
+                },
+                "radius": 30,
+                "revealOn": "enter",
+                "reveals": [
+                    "SYM_MINE_INTERIOR"
+                ]
+            },
+            {
+                "position": {
+                    "x": -41.05162,
+                    "y": 90.57001,
+                    "z": -135.3242
+                },
+                "radius": 5,
+                "revealOn": "enter",
+                "reveals": [
+                    "SYM_MINE_RECORDING"
+                ]
+            },
+            {
+                "position": {
+                    "x": 7.262053,
+                    "y": -18.38921,
+                    "z": 6.59967
+                },
+                "radius": 50,
+                "revealOn": "enter",
+                "reveals": [
+                    "SYM_END_IDENTIFY"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,154 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+
+  <ID>ALT TH</ID>
+
+  <Entry>
+    <ID>SYM_MAIN</ID>
+    <Name>$SYM_MAIN_NAME</Name>
+    <Curiosity>SYM_MAIN</Curiosity>
+    <IsCuriosity />
+
+    <ExploreFact>
+      <ID>SYM_MAIN_IDENTIFY</ID>
+      <Text>$SYM_MAIN_IDENTIFY</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>SYM_VILLAGE</ID>
+    <Name>$SYM_VILLAGE_NAME</Name>
+    <Curiosity>SYM_MAIN</Curiosity>
+
+    <ExploreFact>
+      <ID>SYM_VILLAGE_IDENTIFY</ID>
+      <Text>$SYM_VILLAGE_IDENTIFY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>SYM_VILLAGE_MUSEUM</ID>
+      <Text>$SYM_VILLAGE_MUSEUM</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>SYM_VILLAGE_SPOKESPERSON</ID>
+      <Text>$SYM_VILLAGE_SPOKESPERSON</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>SYM_MINE</ID>
+    <Name>$SYM_MINE_NAME</Name>
+    <Curiosity>SYM_MAIN</Curiosity>
+
+    <RumorFact>
+      <ID>SYM_MINE_RUMOR</ID>
+      <SourceID>SYM_VILLAGE</SourceID>
+      <RumorName>$SYM_MINE_RUMOR_NAME</RumorName>
+      <Text>$SYM_MINE_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>SYM_MINE_IDENTIFY</ID>
+      <Text>$SYM_MINE_IDENTIFY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>SYM_MINE_INTERIOR</ID>
+      <Text>$SYM_MINE_INTERIOR</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>SYM_MINE_RECORDING</ID>
+      <Text>$SYM_MINE_RECORDING</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>SYM_POOL</ID>
+    <Name>$SYM_POOL_NAME</Name>
+    <Curiosity>SYM_MAIN</Curiosity>
+
+    <RumorFact>
+      <ID>SYM_POOL_RUMOR_SIGN_RED</ID>
+      <SourceID>SYM_GROVE</SourceID>
+      <RumorName>$SYM_POOL_RUMOR_NAME</RumorName>
+      <RumorNamePriority>1</RumorNamePriority>
+      <Text>$SYM_POOL_RUMOR_SIGN_RED</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>SYM_POOL_RUMOR_SIGN_WHITE</ID>
+      <SourceID>SYM_GROVE</SourceID>
+      <RumorName>$SYM_POOL_RUMOR_NAME</RumorName>
+      <RumorNamePriority>2</RumorNamePriority>
+      <Text>$SYM_POOL_RUMOR_SIGN_WHITE</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>SYM_POOL_RUMOR_SIGN_BLUE</ID>
+      <SourceID>SYM_GROVE</SourceID>
+      <RumorName>$SYM_POOL_RUMOR_NAME</RumorName>
+      <RumorNamePriority>3</RumorNamePriority>
+      <Text>$SYM_POOL_RUMOR_SIGN_BLUE</Text>
+    </RumorFact>
+
+    <RumorFact>
+      <ID>SYM_POOL_RUMOR_SIGN_GREEN</ID>
+      <SourceID>SYM_GROVE</SourceID>
+      <RumorName>$SYM_POOL_RUMOR_NAME</RumorName>
+      <RumorNamePriority>4</RumorNamePriority>
+      <Text>$SYM_POOL_RUMOR_SIGN_GREEN</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>SYM_POOL_FLOWER</ID>
+      <Text>$SYM_POOL_FLOWER</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>SYM_GROVE</ID>
+    <Name>$SYM_GROVE_NAME</Name>
+    <Curiosity>SYM_MAIN</Curiosity>
+
+    <RumorFact>
+      <ID>SYM_GROVE_RUMOR</ID>
+      <SourceID>SYM_VILLAGE</SourceID>
+      <Text>$SYM_GROVE_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>SYM_GROVE_IDENTIFY</ID>
+      <Text>$SYM_GROVE_IDENTIFY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>SYM_GROVE_SIGNS</ID>
+      <Text>$SYM_GROVE_SIGNS</Text>
+    </ExploreFact>
+  </Entry>
+
+  <Entry>
+    <ID>SYM_END</ID>
+    <Name>$SYM_END_NAME</Name>
+    <Curiosity>SYM_MAIN</Curiosity>
+
+    <RumorFact>
+      <ID>SYM_END_RUMOR</ID>
+      <SourceID>SYM_VILLAGE</SourceID>
+      <Text>$SYM_END_RUMOR</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>SYM_END_IDENTIFY</ID>
+      <Text>$SYM_END_IDENTIFY</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>SYM_END_SPOKESPERSON</ID>
+      <Text>$SYM_END_SPOKESPERSON</Text>
+    </ExploreFact>
+  </Entry>
+  
+</AstroObjectEntry>

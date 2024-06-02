@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "SymbiosisShipLogs.dll",
+  "author": "GameWyrm",
+  "name": "SymbiosisShipLogs",
+  "uniqueName": "GameWyrm.SymbiosisShipLogs",
+  "version": "0.1.0",
+  "owmlVersion": "2.9.8",
+  "dependencies": ["xen.NewHorizons", "xen.ModJam3", "CrypticBird.Jam3" ]
+}

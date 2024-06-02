@@ -1,0 +1,65 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+    "curiosities": [
+        {
+            "id": "SYM_MAIN",
+            "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 255
+            },
+            "highlightColor": {
+
+                "r": 70,
+                "g": 70,
+                "b": 70,
+                "a": 255
+            }
+        }
+    ],
+    "entryPositions": [
+        {
+            "id": "SYM_MAIN",
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "SYM_VILLAGE",
+            "position": {
+                "x": 40,
+                "y": -300
+            }
+        },
+        {
+            "id": "SYM_MINE",
+            "position": {
+                "x": 400,
+                "y": -450
+            }
+        },
+        {
+            "id": "SYM_POOL",
+            "position": {
+                "x": 350,
+                "y": -1000
+            }
+        },
+        {
+            "id": "SYM_GROVE",
+            "position": {
+                "x": -500,
+                "y": -750
+            }
+        },
+        {
+            "id": "SYM_END",
+            "position": {
+                "x": -30,
+                "y": -700
+            }
+        }
+    ]
+}

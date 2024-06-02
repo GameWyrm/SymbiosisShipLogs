@@ -1,0 +1,40 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+    "ShipLogDictionary": {
+        "$SYM_MAIN_NAME": "<color=white>An Alternate Timber Hearth?</color>",
+        "$SYM_MAIN_IDENTIFY": "A strange planet covered in thick stormy clouds. My ship's sensors detect a mysterious particulate in the atmosphere.",
+
+        "$SYM_VILLAGE_NAME": "<color=white>The Village?</color>",
+        "$SYM_VILLAGE_IDENTIFY": "It's my village, but it's a ghost town...my <color=orange>community</color> is missing.",
+        "$SYM_VILLAGE_MUSEUM": "I met Ernesto at the museum! Despite his age, he's taken over the museum as curator.",
+        "$SYM_VILLAGE_SPOKESPERSON": "I found someone on the village scouting platform. They look like Galena from back home, but they call themselves the Spokesperson.",
+
+        "$SYM_MINE_NAME": "<color=white>Mining Site?</color>",
+        "$SYM_MINE_RUMOR_NAME": "<color=white>Largest Geyser</color>",
+        "$SYM_MINE_RUMOR": "The Spokesperson told me to visit the largest geyser.",
+        "$SYM_MINE_IDENTIFY": "The geyser mountain has a large Nomai structure outside the entrance to the mining site within.",
+        "$SYM_MINE_INTERIOR": "The mining site is still excavated, exposing the sparkling ore and the pool within. However, most of the Nomai architecture here is very different. A massive vine fills the center of the chamber.",
+        "$SYM_MINE_RECORDING": "Some Nomai had been here previously, and detected that the flowers on this vine was the source of the strange hallucinogen in the atmosphere.",
+
+        "$SYM_POOL_NAME": "<color=white>Starry Pool</color>",
+        "$SYM_POOL_RUMOR_NAME": "<color=white>Mystery of the Quantum Signs</color>",
+        "$SYM_POOL_RUMOR_SIGN_RED": "A sign in the quantum grove says \"By the victim tricked\"",
+        "$SYM_POOL_RUMOR_SIGN_WHITE": "A sign in the quantum grove says \"To yet be picked\"",
+        "$SYM_POOL_RUMOR_SIGN_BLUE": "A sign in the quantum grove says \"Below a starry pool\"",
+        "$SYM_POOL_RUMOR_SIGN_GREEN": "A sign in the quantum grove says \"Is the lowest bloom\"",
+        "$SYM_POOL_FLOWER": "I found a flower low on the vine that I was able to pick. Holding it, I feel strange...",
+
+        "$SYM_GROVE_NAME": "<color=white>Quantum Grove?</color>",
+        "$SYM_GROVE_RUMOR": "Ernesto recommended I explore the Quantum Grove.",
+        "$SYM_GROVE_IDENTIFY": "The Quantum Grove is still here, complete with its shard. However, there is a wooden platform in the center.",
+        "$SYM_GROVE_SIGNS": "There are four quantum signs in the area. They each hold a piece of a message.",
+
+        "$SYM_END_NAME": "<color=white>The Core</color>",
+        "$SYM_END_RUMOR": "The Spokesperson told me to go below the village.",
+        "$SYM_END_IDENTIFY": "There's a portal to a strange space within the Zero-G Cave. The Spokesperson is there, connected to some strange mass.",
+        "$SYM_END_SPOKESPERSON": "The Spokesperson seems to represent some alien species. They told me that they were testing me and my kind to see if we posed any threat to them. We did not, but they did note our kind's strength lies in its warmth and <color=orange>community.</color>"
+    },
+    "UIDictionary": {
+        "ALT TH": "Symbiosis"
+    }
+}
