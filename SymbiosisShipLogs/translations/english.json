@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
     "ShipLogDictionary": {
-        "$SYM_MAIN_NAME": "<color=white>An Alternate Timber Hearth?</color>",
+        "$SYM_MAIN_NAME": "<color=white>Timber Hearth?</color>",
         "$SYM_MAIN_IDENTIFY": "A strange planet covered in thick stormy clouds. My ship's sensors detect a mysterious particulate in the atmosphere.",
 
         "$SYM_VILLAGE_NAME": "<color=white>The Village?</color>",
