@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/dev/NewHorizons/Schemas/body_schema.json",
+    "name": "EndDimension",
+    "starSystem": "Jam3",
+
+    "Volumes": {
+        "creditsVolume": [
+            {
+                "deathType": "meditation",
+                "creditsType": "fast",
+                "gameOverText": "You return to your community on Timber Hearth. They await you with open arms.",
+                "position": {},
+                "radius": 5.4,
+                "rename": "SkippableCreditsVolume"
+            }
+        ]
+    },
+    "removeChildren": [
+        "Sector/LoadCreditsVolume"
+    ]
+}

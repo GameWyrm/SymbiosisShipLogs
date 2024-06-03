@@ -31,7 +31,8 @@
     <None Include="planets\**\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Remove="planets\Symbiosis.pdn"/>
+    <None Remove="NewHorizons.dll" />
+    <None Remove="planets\Symbiosis.pdn" />
     <None Include="systems\**\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

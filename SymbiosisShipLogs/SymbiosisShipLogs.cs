@@ -5,7 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using System.Xml;
 using UnityEngine;
 
 namespace SymbiosisShipLogs
@@ -84,10 +83,11 @@ namespace SymbiosisShipLogs
             // Might as well fix flower collider
             GameObject flower = altTH.transform.Find("Sector/Flower").gameObject;
             flower.GetComponent<SphereCollider>().radius = 0.4f;
-            AddShipLogOnInteract endLog = GameObject.Find("EndDimension_Body").transform.Find("Sector/ConversationZone").gameObject.GetAddComponent<AddShipLogOnInteract>();
+            GameObject end = GameObject.Find("EndDimension_Body");
+            AddShipLogOnInteract endLog = end.transform.Find("Sector/ConversationZone").gameObject.GetAddComponent<AddShipLogOnInteract>();
             endLog.logNames = ["SYM_END_SPOKESPERSON"];
-
-            
+            // Fix unskippable credits BY DESTROYING THEM
+            //Destroy(end.transform.Find("Sector/LoadCreditsVolume").gameObject);
         }
 
         private Sprite GetSpriteFromFile(string fileName)
