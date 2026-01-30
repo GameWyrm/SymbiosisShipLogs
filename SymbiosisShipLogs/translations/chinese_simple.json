@@ -1,0 +1,42 @@
+{
+//该翻译补丁经检查没有任何问题。
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+  "ShipLogDictionary": {
+    "$SYM_MAIN_NAME": "<color=white>木炉星？</color>",
+    "$SYM_MAIN_IDENTIFY": "一颗被浓密风暴云覆盖的奇怪星球。我的飞船传感器检测到大气中有一种神秘的有机颗粒物。",
+
+    "$SYM_VILLAGE_NAME": "<color=white>村庄？</color>",
+    "$SYM_VILLAGE_IDENTIFY": "这是我的村庄，但它现在像一座鬼城……我的<color=orange>社群</color>不见了。",
+    "$SYM_VILLAGE_MUSEUM": "我在博物馆遇到了厄内斯托！尽管年事已高，他还是接管了博物馆，担任馆长。",
+    "$SYM_VILLAGE_SPOKESPERSON": "我在村庄的侦察平台上发现了某人。他看起来像家乡的盖琳娜，但他自称‘代言人’。",
+
+    "$SYM_MINE_NAME": "<color=white>采矿场？</color>",
+    "$SYM_MINE_RUMOR_NAME": "<color=white>最大的间歇泉</color>",
+    "$SYM_MINE_RUMOR": "代言人让我去参观最大的间歇泉。",
+    "$SYM_MINE_IDENTIFY": "间歇泉山外有一座大型挪麦建筑，通向内部的采矿场。",
+    "$SYM_MINE_INTERIOR": "采矿场仍在开采中，露出了闪闪发光的矿石和内部的池子。然而，这里的大部分挪麦建筑风格非常不同。一根巨大的藤蔓占据了房间的中心。",
+    "$SYM_MINE_RECORDING": "一些挪麦人曾来过这里，并检测到这种藤蔓上的花朵是大气中奇怪致幻剂的来源。",
+
+    "$SYM_POOL_NAME": "<color=white>星空下的水池</color>",
+    "$SYM_POOL_RUMOR_NAME": "<color=white>量子标志的谜题</color>",
+    "$SYM_POOL_RUMOR_SIGN_RED": "量子树林中的一个标志写着“在被欺骗的受害者旁”",
+    "$SYM_POOL_RUMOR_SIGN_WHITE": "量子树林中的一个标志写着“尚未被采摘”",
+    "$SYM_POOL_RUMOR_SIGN_BLUE": "量子树林中的一个标志写着“在星空下的水池下方”",
+    "$SYM_POOL_RUMOR_SIGN_GREEN": "量子树林中的一个标志写着“是最低的花朵”",
+    "$SYM_POOL_FLOWER": "我在藤蔓的低处找到了一朵可以采摘的花。拿着它，我感到一种奇怪的感觉……",
+
+    "$SYM_GROVE_NAME": "<color=white>量子树林？</color>",
+    "$SYM_GROVE_RUMOR": "厄内斯托建议我探索量子树林。",
+    "$SYM_GROVE_IDENTIFY": "量子树林仍然在这里，包括它的碎片。然而，中心有一个木制平台。",
+    "$SYM_GROVE_SIGNS": "区域内有四个量子标志。它们各自包含一条信息的一部分。",
+
+    "$SYM_END_NAME": "<color=white>核心</color>",
+    "$SYM_END_RUMOR": "代言人让我去村庄下方。",
+    "$SYM_END_IDENTIFY": "零重力洞穴内有一个通往奇怪空间的传送门。代言人就在那里，连接着某种奇怪的物质。",
+    "$SYM_END_SPOKESPERSON": "代言人似乎代表某种外星物种。他告诉我，他们正在测试我和我的同类，看看我们是否对他们构成威胁。我们没有，但他们注意到我们种族的优势在于其温暖和<color=orange>社群</color>。"
+  },
+
+  "UIDictionary": {
+    "ALT TH": "共生"
+  }
+}
